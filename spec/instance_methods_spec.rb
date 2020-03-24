@@ -1,4 +1,4 @@
-describe 'Dog' do
+    describe 'Dog' do
   it 'is defined' do
     expect(defined?(Dog)).to be_truthy
     expect(Dog).to be_a(Class)

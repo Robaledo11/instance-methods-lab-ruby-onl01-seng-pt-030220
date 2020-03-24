@@ -4,9 +4,11 @@ class Person
  end
  
  def walk
-   puts "THe Person is walking"
+   puts "The Person is walking"
  end
  end
  
- 
+ ada = Person.new 
+ ada.talk
+ ada.walk
 

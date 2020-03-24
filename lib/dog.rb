@@ -1,20 +1,21 @@
 class Dog 
-  def bark = (bark)
+  
+  def bark =(bark)
     @bark = bark
+     puts "Woof!"
   end
   
   def bark 
     @bark
-    puts "Woof!"
   end
   
  Def sit = (sit)
   @sit = sit 
+  puts "The Dog is sitting"
 end
 
 def sit
   @sit 
-  puts "The Dog is sitting"
 end
 end
 
